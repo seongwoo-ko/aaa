@@ -3,3 +3,5 @@ os: linux
 files:
   - source:  /
     destination: /home/ec2-user/CICD-Practice/
+    overwrite: yes
+file_exists_behavior: OVERWRITE
