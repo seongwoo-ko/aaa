@@ -1,4 +1,3 @@
-<a href = "https://velog.io/@noyohanx/DevOps-CodeSeries%EB%A1%9C-CICD-%ED%95%B4%EB%B3%B4%EA%B8%B0">![우당타타탙](https://user-images.githubusercontent.com/82383294/197465026-cd4d9593-d56e-4f7e-af05-127cf28ccf11.png)</a>
 <a href = "https://velog.io/@noyohanx/Ops-CICD-%EB%9E%80">저번 글</a>에 이어서 AWS의 코드 시리즈로 CI/CD를 어떻게 하는지 실습을 진행해보려고 합니다.
 
 (이 글은 AWS의 기본적인 지식을 가졌다는 전제하에 글이 진행되니 읽기 전 참고해주세요)
@@ -122,7 +121,7 @@ phases:
       - sudo yarn build
   post_build:
     commands:
-      - sudo yarn pm2 kill //굳이 안해도되는데 확실히 죽이기 위해 넣었다.
+      - sudo yarn pm2 kill
       - sudo yarn pm2 start dist/main.js --watch -f
  ```
 - version : 말그대로 버전이다. 0.2 를 권장한다고합니다.
