@@ -1,3 +1,5 @@
+![우당타타탙](https://user-images.githubusercontent.com/82383294/197936303-8d05268f-621e-4160-bc42-8f83149d8ebf.png)
+
 <a href = "https://velog.io/@noyohanx/Ops-CICD-%EB%9E%80">저번 글</a>에 이어서 AWS의 코드 시리즈로 CI/CD를 어떻게 하는지 실습을 진행해보려고 합니다.
 
 (이 글은 AWS의 기본적인 지식을 가졌다는 전제하에 글이 진행되니 읽기 전 참고해주세요)
